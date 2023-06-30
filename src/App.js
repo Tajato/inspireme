@@ -1,10 +1,14 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 import Header from './Header.js';
 import Input from './Input.js';
 import Button from './Button.js';
 import InputResults from './InputResults.js';
 function App() {
+  useEffect(() => {
+    document.title = 'InspireMe';
+  }, []);
+
   const [selectedType, setSelectedType ] = useState('recreational');
   const [activity, setActivity] = useState(null);
 
