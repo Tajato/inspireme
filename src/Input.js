@@ -10,7 +10,7 @@ function Input({selectedType, typeChange}) {
             <select id="list"  value={selectedType} onChange={typeChange}>
         <option></option>
         <option value="recreational" >Recreational</option>
-        <option value="educational">Education</option>
+        <option value="education">Education</option>
         <option value="social">Social</option>
         <option value="diy">DIY</option>
         <option value="charity">Charity</option>
