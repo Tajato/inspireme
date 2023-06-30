@@ -1,0 +1,11 @@
+.box button {
+    padding:8px;
+    font-size:20px;
+    margin-top:15px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: skyblue;
+    border-radius: 3px;
+    border: white;
+    
+}

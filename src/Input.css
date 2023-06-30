@@ -1,0 +1,13 @@
+.centered-dropdown {
+    display:flex;
+    justify-content: center;
+}
+
+.container h2 {
+    text-align: center;
+}
+
+#list {
+    width:15%;
+    text-align: center;
+}
